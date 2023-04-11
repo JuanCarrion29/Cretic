@@ -58,6 +58,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MVVM\Modelo\CuentaUsuarioModelo.cs" />
+    <Compile Include="MVVM\Modelo\IUsuarioRep.cs" />
+    <Compile Include="MVVM\Modelo\UserModelo.cs" />
+    <Compile Include="MVVM\Rep\BaseR.cs" />
+    <Compile Include="MVVM\Rep\UsuarioR.cs" />
+    <Compile Include="MVVM\VistaModelo\RRelayCommand.cs" />
+    <Compile Include="MVVM\VistaModelo\VistaModeloB.cs" />
+    <Compile Include="Theme\BlindablePassword.xaml.cs">
+      <DependentUpon>BlindablePassword.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +94,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\Vista\LoginVista.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Theme\BlindablePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Theme\BotonPalMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +115,7 @@
     <Compile Include="MVVM\VistaModelo\BibliotecaVistaModelo.cs" />
     <Compile Include="MVVM\VistaModelo\HomeVistaModelo.cs" />
     <Compile Include="MVVM\VistaModelo\JuegosVistaModelo.cs" />
+    <Compile Include="MVVM\VistaModelo\LoginVistaModelo.cs" />
     <Compile Include="MVVM\VistaModelo\MainVistaM.cs" />
     <Compile Include="MVVM\Vista\BibliotecaVista.xaml.cs">
       <DependentUpon>BibliotecaVista.xaml</DependentUpon>
@@ -106,6 +125,9 @@
     </Compile>
     <Compile Include="MVVM\Vista\JuegosVista.xaml.cs">
       <DependentUpon>JuegosVista.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\Vista\LoginVista.xaml.cs">
+      <DependentUpon>LoginVista.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -135,8 +157,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Fonts\" />
-    <Folder Include="Imagenes\" />
-    <Folder Include="MVVM\Modelo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\logoPa2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Cretic11 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\iconoUsuario4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

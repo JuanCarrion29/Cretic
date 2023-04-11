@@ -27,3 +27,7 @@ C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\Bib
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\bin\Debug\FontAwesome.WPF.dll
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\bin\Debug\FontAwesome.WPF.xml
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG.csproj.CopyComplete
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\LoginVista.g.cs
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\BlindablePassword.g.cs
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\LoginVista.baml
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\BlindablePassword.baml

@@ -8,6 +8,14 @@
              d:DesignHeight="450" d:DesignWidth="800"
              Background="#000000">
     <Grid>
+        <DataGrid ItemsSource="{Binding JuegosComprados}"
+                  Background="#1f1f1f">
             
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" />
+                <DataGridTextColumn Header="Fecha de compra" Binding="{Binding FechaCompra}" />
+                <DataGridTextColumn Header="Precio" Binding="{Binding Precio}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>
