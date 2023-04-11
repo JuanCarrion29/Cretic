@@ -60,11 +60,13 @@
             </Border>
 
 
-            <Border
+            <Border x:Name="Border1F"
                 Width="200"
                 Height="200"
                 Margin="45,0,0,0"
-                CornerRadius="10">
+                CornerRadius="10"
+                MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
                 <Border.Background>
                     <ImageBrush ImageSource="/Imagenes/battle.jpg" />
@@ -99,11 +101,13 @@
                 Text="Lo que juegan lo taiguel" />
 
             <StackPanel Orientation="Horizontal">
-                <Border
+                <Border x:Name="Border2F"
                     Width="150"
                     Height="150"
                     Margin="1"
-                    CornerRadius="10">
+                    CornerRadius="10"
+                    MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
                     <Border.Background>
                         <ImageBrush ImageSource="/Imagenes/battle3.jpg" />
@@ -120,10 +124,12 @@
 
                 </Border>
 
-                <Border
+                <Border x:Name="Border3F"
                     Width="150"
                     Height="150"
-                    CornerRadius="10">
+                    CornerRadius="10"
+                    MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
                     <Border.Background>
                         <ImageBrush ImageSource="/Imagenes/battle6.jpg" />
@@ -138,10 +144,12 @@
                     
                 </Border>
 
-                <Border
+                <Border x:Name="Border4F"
                     Width="150"
                     Height="150"
-                    CornerRadius="10">
+                    CornerRadius="10"
+                    MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
                     <Border.Background>
                         <ImageBrush ImageSource="/Imagenes/nefor.jpeg" />
@@ -156,10 +164,12 @@
                 </Border>
 
 
-                <Border
+                <Border x:Name="Border5F"
                     Width="150"
                     Height="150"
-                    CornerRadius="10">
+                    CornerRadius="10"
+                    MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
                     <Border.Background>
                         <ImageBrush ImageSource="/Imagenes/nefor2.jpg" />
