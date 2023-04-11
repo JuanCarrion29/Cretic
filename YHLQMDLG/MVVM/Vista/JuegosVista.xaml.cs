@@ -18,6 +18,7 @@ namespace YHLQMDLG.MVVM.Vista
     /// <summary>
     /// Lógica de interacción para JuegosVista.xaml
     /// </summary>
+    /// juan
     public partial class JuegosVista : UserControl
     {
         public JuegosVista()
