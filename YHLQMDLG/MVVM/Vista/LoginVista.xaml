@@ -16,6 +16,7 @@
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     WindowStyle="None"
+    PreviewKeyDown="Window_PreviewKeyDown"
     mc:Ignorable="d">
 
     <Window.DataContext>

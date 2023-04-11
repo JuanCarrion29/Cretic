@@ -50,6 +50,15 @@ namespace YHLQMDLG.MVVM.Vista
 
 
 
+        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                btnLogin.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                e.Handled = true;
+            }
+        }
+
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
 

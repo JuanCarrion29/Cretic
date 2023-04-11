@@ -24,5 +24,22 @@ namespace YHLQMDLG.MVVM.Vista
         {
             InitializeComponent();
         }
+
+        private void OnMouseEnter(object sender, MouseEventArgs e)
+        {
+            var border = (Border)sender;
+            var button = (Button)border.Child;
+            button.Visibility = Visibility.Visible;
+        }
+
+        private void OnMouseLeave(object sender, MouseEventArgs e)
+        {
+            var border = (Border)sender;
+            var button = (Button)border.Child;
+            button.Visibility = Visibility.Collapsed;
+        }
+
+
+
     }
 }
