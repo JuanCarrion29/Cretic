@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:YHLQMDLG"
              xmlns:vistaModelo="clr-namespace:YHLQMDLG.MVVM.VistaModelo"
              xmlns:vista="clr-namespace:YHLQMDLG.MVVM.Vista"
-             Startup="ApplicationStart.xaml">
+             Startup="ApplicationStart">
     
     
     <Application.Resources>

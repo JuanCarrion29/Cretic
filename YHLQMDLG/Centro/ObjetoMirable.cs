@@ -16,5 +16,9 @@ namespace YHLQMDLG.Centro
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
         }
+
+       
+     
+
     }
 }

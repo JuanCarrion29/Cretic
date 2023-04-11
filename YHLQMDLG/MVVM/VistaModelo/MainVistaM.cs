@@ -1,5 +1,6 @@
 ﻿using System;
 using YHLQMDLG.Centro;
+using YHLQMDLG.MVVM.VistaModelo;
 
 namespace YHLQMDLG.MVVM.VistaModelo
 {
@@ -10,7 +11,9 @@ namespace YHLQMDLG.MVVM.VistaModelo
 
         public RelayCommand JuegosVistaCommand { get; set; }
 
-        public RelayCommand BibliotecaVistaCommand { get; set; }    
+        public RelayCommand BibliotecaVistaCommand { get; set; }
+
+       
 
 
 
@@ -32,6 +35,10 @@ namespace YHLQMDLG.MVVM.VistaModelo
 
         public MainVistaM()
         {
+
+            
+
+
             HomeVM = new HomeVistaModelo();
             JuegosVM = new JuegosVistaModelo();
             BibliotecaVM = new BibliotecaVistaModelo();
@@ -59,6 +66,9 @@ namespace YHLQMDLG.MVVM.VistaModelo
             });
 
         }
+
+
+
 
 
     }

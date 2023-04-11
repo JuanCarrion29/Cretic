@@ -65,7 +65,7 @@
                 Foreground="White"
                 Text="Cretic" />
 
-            <TextBlock Text="pene gordo"
+            <TextBlock Text="{Binding CurrentUserAccount.DisplayName}"
                                        Grid.Column="2"
                                        Foreground="DarkBlue"
                                        FontFamily="Montserrat"
