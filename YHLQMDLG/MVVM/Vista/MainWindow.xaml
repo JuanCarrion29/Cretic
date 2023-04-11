@@ -8,7 +8,7 @@
     xmlns:vistaModelo="clr-namespace:YHLQMDLG.MVVM.VistaModelo"
     xmlns:fa="http://schemas.fontawesome.io/icons/"
     
-    Width="920"
+    Width="1050"
     Height="600"
     AllowsTransparency="True"
     Background="Transparent"

@@ -27,6 +27,8 @@ namespace YHLQMDLG
                     var mainView = new MainWindow();
                     mainView.Show();
                     loginView.Close();
+
+                   
                 }
             };
         }

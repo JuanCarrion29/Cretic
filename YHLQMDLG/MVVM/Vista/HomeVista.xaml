@@ -67,11 +67,16 @@
                 CornerRadius="10">
 
                 <Border.Background>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Offset="0.0" Color="#ffc554" />
-                        <GradientStop Offset="1" Color="#ffb73a" />
-                    </LinearGradientBrush>
+                    <ImageBrush ImageSource="/Imagenes/battle.jpg" />
                 </Border.Background>
+
+                <Button x:Name="buyButton1"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+
             </Border>
 
 
@@ -98,27 +103,76 @@
                     Width="150"
                     Height="150"
                     Margin="1"
-                    Background="#844eff"
-                    CornerRadius="10" />
+                    CornerRadius="10">
+
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Imagenes/battle3.jpg" />
+                    </Border.Background>
+
+
+                    <Button x:Name="buyButton2"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+
+
+                </Border>
 
                 <Border
                     Width="150"
                     Height="150"
-                    Background="#4eff91"
-                    CornerRadius="10" />
+                    CornerRadius="10">
+
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Imagenes/battle6.jpg" />
+                    </Border.Background>
+
+                    <Button x:Name="buyButton3HV"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+                    
+                </Border>
 
                 <Border
                     Width="150"
                     Height="150"
-                    Background="#4e99ff"
-                    CornerRadius="10" />
+                    CornerRadius="10">
+
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Imagenes/nefor.jpeg" />
+                    </Border.Background>
+
+                    <Button x:Name="buyButton4HV"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+                </Border>
 
 
                 <Border
                     Width="150"
                     Height="150"
-                    Background="#ecff4e"
-                    CornerRadius="10" />
+                    CornerRadius="10">
+
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Imagenes/nefor2.jpg" />
+                    </Border.Background>
+
+                    <Button x:Name="buyButton5HV"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+
+                </Border>
 
             </StackPanel>
 

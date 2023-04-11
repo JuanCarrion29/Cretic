@@ -167,5 +167,50 @@
   <ItemGroup>
     <Resource Include="Imagenes\iconoUsuario4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\minecraft_PNG81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\fornite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\wolfen.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\lololol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\sanadreas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\arkk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\pupg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\codd.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\cod4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Rainbowhh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\battle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\battle3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\battle6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\nefor.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\nefor2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

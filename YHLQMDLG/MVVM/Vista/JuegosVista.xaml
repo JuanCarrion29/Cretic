@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:YHLQMDLG.MVVM.Vista"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     d:DesignHeight="450"
-    d:DesignWidth="800"
+    d:DesignWidth="850"
     Background="#1B1B1B"
     mc:Ignorable="d">
 
@@ -49,11 +49,15 @@
                 <StackPanel Orientation="Horizontal">
                     <Border Width="150"
             Height="150"
-            Background="#844eff"
+            
             CornerRadius="10"
             Margin="0,20"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/minecraft_PNG81.png" />
+                        </Border.Background>
                         
                         
                         <Button x:Name="buyButton1"
@@ -66,11 +70,15 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#4eff91"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
-                        
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/arkk.png"/>
+
+                        </Border.Background>
                         
                         
                         <Button x:Name="buyButton2"
@@ -83,10 +91,17 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#4e99ff"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/cod4.jpeg"/>
+
+                        </Border.Background>
+                        
                         <Button x:Name="buyButton3"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -97,10 +112,17 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#ecff4e"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/codd.jpeg"/>
+
+                        </Border.Background>
+                        
                         <Button x:Name="buyButton4"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -111,10 +133,17 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#ecff4e"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/fornite.jpg"/>
+
+                        </Border.Background>
+
                         <Button x:Name="buyButton5"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -127,11 +156,18 @@
                 <StackPanel Orientation="Horizontal">
                     <Border Width="150"
             Height="150"
-            Background="#ff4e84"
+            
             CornerRadius="10"
             Margin="0,20"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/lololol.jpg"/>
+
+                        </Border.Background>
+
                         <Button x:Name="buyButton6"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -142,10 +178,18 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#ff844e"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/pupg.jpg"/>
+
+                        </Border.Background>
+
                         <Button x:Name="buyButton7"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -156,10 +200,17 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#ffde4e"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/wolfen.jpeg"/>
+
+                        </Border.Background>
+
                         <Button x:Name="buyButton8"
                 Content="Comprar"
                 Visibility="Collapsed"
@@ -170,10 +221,17 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#4eff84"
+            
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/sanadreas.jpg"/>
+
+                        </Border.Background>
 
                         <Button x:Name="buyButton9"
                 Content="Comprar"
@@ -186,10 +244,16 @@
 
                     <Border Width="150"
             Height="150"
-            Background="#4eff84"
+             
             CornerRadius="10"
             MouseEnter="OnMouseEnter"
             MouseLeave="OnMouseLeave">
+
+                        <Border.Background>
+
+                            <ImageBrush ImageSource="/Imagenes/Rainbowhh.png"/>
+
+                        </Border.Background>
 
                         <Button x:Name="buyButton10"
                 Content="Comprar"

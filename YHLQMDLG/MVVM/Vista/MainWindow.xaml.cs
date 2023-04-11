@@ -33,5 +33,21 @@ namespace YHLQMDLG
             }
 
         }
+
+
+        private void btnMinimize_Dandole(object sender, RoutedEventArgs e)
+        {
+
+
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btnCerra_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+
+        }
+
+
     }
 }
