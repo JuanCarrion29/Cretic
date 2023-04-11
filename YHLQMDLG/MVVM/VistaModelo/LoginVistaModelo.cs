@@ -116,16 +116,23 @@ namespace YHLQMDLG.MVVM.VistaModelo
         private void ExecuteLoginCommand(object obj)
         {
             var isValidUser = UsuarioRep.AuthenticateUser(new NetworkCredential(UserName, Password));
-            if (isValidUser)
+
+            try
             {
-                Thread.CurrentPrincipal = new GenericPrincipal(
-                    new GenericIdentity(UserName), null);
-                IsViewVisible = false;
-            }
-            else
-            {
-                ErrorMessage = "* Invalid username or password";
-            }
+
+                if (isValidUser)
+                {
+                    Thread.CurrentPrincipal = new GenericPrincipal(
+                        new GenericIdentity(UserName), null);
+                    IsViewVisible = false;
+                }
+                else
+                {
+                    ErrorMessage = "   Ta mal mamaguevo ponlo bien   ";
+                }
+
+
+            }catch (Exception ex) { }
         }
 
 

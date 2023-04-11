@@ -13,8 +13,11 @@ namespace YHLQMDLG.Centro
 
         protected void OnPropertyChanged([CallerMemberName] string name  = null)
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
+            try
+            {
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+            }catch(Exception ex) { }
         }
 
        

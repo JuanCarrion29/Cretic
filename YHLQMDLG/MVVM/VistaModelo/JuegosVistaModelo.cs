@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace YHLQMDLG.MVVM.VistaModelo
 {
-    internal class JuegosVistaModelo
+    public class JuegosVistaModelo
     {
+
+
+
+
+
+
+
+
     }
 }

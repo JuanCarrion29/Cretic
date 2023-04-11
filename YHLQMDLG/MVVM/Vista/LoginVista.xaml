@@ -49,8 +49,8 @@
             </Border.BorderBrush>
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Offset="0" Color="#060531" />
-                    <GradientStop Offset="1" Color="#3d3d3d" />
+                    <GradientStop Offset="0" Color="#303134" />
+                    <GradientStop Offset="1" Color="#303134" />
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -97,7 +97,7 @@
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#28AEED" />
+                                <Setter Property="Background" Value="Green" />
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="#278BEF" />
@@ -137,10 +137,10 @@
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#DA34AE" />
+                                <Setter Property="Background" Value="Red" />
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#C62DAE" />
+                                        <Setter Property="Background" Value="Blue" />
                                     </Trigger>
                                 </Style.Triggers>
                             </Style>
@@ -267,7 +267,7 @@
 
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#462AD8" />
+                                <Setter Property="Background" Value="#ff9000" />
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="#28AEED" />
