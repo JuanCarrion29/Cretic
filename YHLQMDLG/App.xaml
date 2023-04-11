@@ -1,0 +1,35 @@
+﻿<Application x:Class="YHLQMDLG.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:YHLQMDLG"
+             xmlns:vistaModelo="clr-namespace:YHLQMDLG.MVVM.VistaModelo"
+             xmlns:vista="clr-namespace:YHLQMDLG.MVVM.Vista"
+             StartupUri="MainWindow.xaml">
+    
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/BotonPalMenu.xaml"/>
+                <ResourceDictionary Source="Theme/TextBoxFlow.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vistaModelo:HomeVistaModelo}">
+                <vista:HomeVista/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vistaModelo:JuegosVistaModelo}">
+                <vista:JuegosVista/>
+
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vistaModelo:BibliotecaVistaModelo}">
+                <vista:BibliotecaVista/>
+
+            </DataTemplate>
+
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
