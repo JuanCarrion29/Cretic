@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vistaModelo="clr-namespace:YHLQMDLG.MVVM.VistaModelo"
     xmlns:fa="http://schemas.fontawesome.io/icons/"
+    
     Width="920"
     Height="600"
     AllowsTransparency="True"
@@ -37,6 +38,7 @@
         </Border.BorderBrush>
 
 
+       
 
 
         <Grid>
@@ -63,7 +65,14 @@
                 Foreground="White"
                 Text="Cretic" />
 
-
+            <TextBlock Text="pene gordo"
+                                       Grid.Column="2"
+                                       Foreground="DarkBlue"
+                                       FontFamily="Montserrat"
+                                       FontSize="12"
+                                       VerticalAlignment="Center"
+                                        Margin="50"
+                                      />
 
             <StackPanel Grid.Row="1">
                 <RadioButton
@@ -109,6 +118,7 @@
                 Margin="10"
                 Content="{Binding Comoseve}" />
 
+            
 
         </Grid>
 

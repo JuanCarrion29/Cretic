@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:YHLQMDLG.MVVM.Vista"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:theme="clr-namespace:YHLQMDLG.Theme"
+    xmlns:vistaModelo="clr-namespace:YHLQMDLG.MVVM.VistaModelo"
     Title="LoginVista"
     Width="800"
     Height="550"
@@ -16,6 +17,19 @@
     WindowStartupLocation="CenterScreen"
     WindowStyle="None"
     mc:Ignorable="d">
+
+    <Window.DataContext>
+        <vistaModelo:LoginVistaModelo/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    </Window.Resources>
+
+    <Window.Visibility>
+        <Binding Path="IsViewVisible" Mode="TwoWay" Converter="{StaticResource BooleanToVisibility}"/>
+    </Window.Visibility>
+
 
     <Border CornerRadius="12">
 

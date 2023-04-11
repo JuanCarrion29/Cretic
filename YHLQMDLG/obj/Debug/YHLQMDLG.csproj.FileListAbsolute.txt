@@ -5,14 +5,12 @@ C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG.cspro
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG.csproj.SuggestedBindingRedirects.cache
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\BotonPalMenu.baml
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\TextBoxFlow.baml
-C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MainWindow.g.cs
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\HomeVista.g.cs
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\App.g.cs
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG_MarkupCompile.cache
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG_MarkupCompile.lref
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\App.baml
-C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MainWindow.baml
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\HomeVista.baml
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG.g.resources
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\YHLQMDLG.Properties.Resources.resources
@@ -31,3 +29,5 @@ C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\Log
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\BlindablePassword.g.cs
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\LoginVista.baml
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\Theme\BlindablePassword.baml
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\MainWindow.g.cs
+C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\obj\Debug\MVVM\Vista\MainWindow.baml

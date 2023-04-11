@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using YHLQMDLG.MVVM.Vista;
 
 namespace YHLQMDLG
 {
@@ -23,7 +24,7 @@ namespace YHLQMDLG
             {
                 if (loginView.IsVisible == false && loginView.IsLoaded)
                 {
-                    var mainView = new MainView();
+                    var mainView = new MainWindow();
                     mainView.Show();
                     loginView.Close();
                 }

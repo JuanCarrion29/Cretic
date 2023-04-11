@@ -92,7 +92,7 @@ namespace YHLQMDLG.MVVM.VistaModelo
         public ICommand ShowPasswordCommand { get; }
 
 
-        public loginVistaModelo()
+        public LoginVistaModelo()
         {
             UsuarioRep = new UsuarioR();
             LoginCommand = new RRelayCommand(ExecuteLoginCommand, CanExecuteLoginCommand);

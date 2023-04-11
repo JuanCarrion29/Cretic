@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\juanc\OneDrive\Desktop\C# JR\YHLQMDLG\YHLQMDLG\App.xaml
-8-2031941337
+81100569012
 
-25-811907826
+25-1592873627
 14-1208730446
-MainWindow.xaml;MVVM\Vista\BibliotecaVista.xaml;MVVM\Vista\HomeVista.xaml;MVVM\Vista\JuegosVista.xaml;MVVM\Vista\LoginVista.xaml;Theme\BlindablePassword.xaml;Theme\BotonPalMenu.xaml;Theme\TextBoxFlow.xaml;
+MVVM\Vista\MainWindow.xaml;MVVM\Vista\BibliotecaVista.xaml;MVVM\Vista\HomeVista.xaml;MVVM\Vista\JuegosVista.xaml;MVVM\Vista\LoginVista.xaml;Theme\BlindablePassword.xaml;Theme\BotonPalMenu.xaml;Theme\TextBoxFlow.xaml;
 
-False
+True
 
