@@ -47,15 +47,16 @@
                 </StackPanel.Resources>
 
                 <StackPanel Orientation="Horizontal">
-                    <Border x:Name="border1"
-            Width="150"
+                    <Border Width="150"
             Height="150"
             Background="#844eff"
             CornerRadius="10"
             Margin="0,20"
-            MouseEnter="OnBorderMouseEnter"
-            MouseLeave="OnBorderMouseLeave">
-                        <Button x:Name="button1"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        
+                        
+                        <Button x:Name="buyButton1"
                 Content="Comprar"
                 Visibility="Collapsed"
                 Width="100"
@@ -63,14 +64,16 @@
                 Margin="10"/>
                     </Border>
 
-                    <Border x:Name="border2"
-            Width="150"
+                    <Border Width="150"
             Height="150"
             Background="#4eff91"
             CornerRadius="10"
-            MouseEnter="OnBorderMouseEnter"
-            MouseLeave="OnBorderMouseLeave">
-                        <Button x:Name="button2"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        
+                        
+                        
+                        <Button x:Name="buyButton2"
                 Content="Comprar"
                 Visibility="Collapsed"
                 Width="100"
@@ -78,14 +81,13 @@
                 Margin="10"/>
                     </Border>
 
-                    <Border x:Name="border3"
-            Width="150"
+                    <Border Width="150"
             Height="150"
             Background="#4e99ff"
             CornerRadius="10"
-            MouseEnter="OnBorderMouseEnter"
-            MouseLeave="OnBorderMouseLeave">
-                        <Button x:Name="button3"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton3"
                 Content="Comprar"
                 Visibility="Collapsed"
                 Width="100"
@@ -93,14 +95,13 @@
                 Margin="10"/>
                     </Border>
 
-                    <Border x:Name="border4"
-            Width="150"
+                    <Border Width="150"
             Height="150"
             Background="#ecff4e"
             CornerRadius="10"
-            MouseEnter="OnBorderMouseEnter"
-            MouseLeave="OnBorderMouseLeave">
-                        <Button x:Name="button4"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton4"
                 Content="Comprar"
                 Visibility="Collapsed"
                 Width="100"
@@ -108,14 +109,13 @@
                 Margin="10"/>
                     </Border>
 
-                    <Border x:Name="border5"
-            Width="150"
+                    <Border Width="150"
             Height="150"
             Background="#ecff4e"
             CornerRadius="10"
-            MouseEnter="OnBorderMouseEnter"
-            MouseLeave="OnBorderMouseLeave">
-                        <Button x:Name="button5"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton5"
                 Content="Comprar"
                 Visibility="Collapsed"
                 Width="100"
@@ -125,42 +125,83 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal">
-                    <Border
-                        Width="150"
-                        Height="150"
-                        Margin="1"
-                        Background="#844eff"
-                        CornerRadius="10" />
+                    <Border Width="150"
+            Height="150"
+            Background="#ff4e84"
+            CornerRadius="10"
+            Margin="0,20"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton6"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+                    </Border>
 
-                    <Border
-                        Width="150"
-                        Height="150"
-                        Background="#4eff91"
-                        CornerRadius="10" />
+                    <Border Width="150"
+            Height="150"
+            Background="#ff844e"
+            CornerRadius="10"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton7"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+                    </Border>
 
-                    <Border
-                        Width="150"
-                        Height="150"
-                        Background="#4e99ff"
-                        CornerRadius="10" />
+                    <Border Width="150"
+            Height="150"
+            Background="#ffde4e"
+            CornerRadius="10"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+                        <Button x:Name="buyButton8"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+                    </Border>
 
+                    <Border Width="150"
+            Height="150"
+            Background="#4eff84"
+            CornerRadius="10"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
 
-                    <Border
-                        Width="150"
-                        Height="150"
-                        Background="#ecff4e"
-                        CornerRadius="10" />
+                        <Button x:Name="buyButton9"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
 
-                    <Border
-                        Width="150"
-                        Height="150"
-                        Background="#4e99ff"
-                        CornerRadius="10" />
+                    </Border>
+
+                    <Border Width="150"
+            Height="150"
+            Background="#4eff84"
+            CornerRadius="10"
+            MouseEnter="OnMouseEnter"
+            MouseLeave="OnMouseLeave">
+
+                        <Button x:Name="buyButton10"
+                Content="Comprar"
+                Visibility="Collapsed"
+                Width="100"
+                Height="30"
+                Margin="10"/>
+
+                    </Border>
+
 
                 </StackPanel>
-
-
-
 
 
 

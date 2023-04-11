@@ -32,25 +32,19 @@ namespace YHLQMDLG.MVVM.Vista
         }
 
 
-       
-        private void OnBorderMouseEnter(object sender, MouseEventArgs e)
+        private void OnMouseEnter(object sender, MouseEventArgs e)
         {
-            var border = sender as Border;
-            var button = border?.Child as Button;
-            if (button != null)
-            {
-                button.Visibility = Visibility.Visible;
-            }
+            var border = (Border)sender;
+            var button = (Button)border.Child;
+            button.Visibility = Visibility.Visible;
         }
 
-        private void OnBorderMouseLeave(object sender, MouseEventArgs e)
+        private void OnMouseLeave(object sender, MouseEventArgs e)
         {
-            var border = sender as Border;
-            var button = border?.Child as Button;
-            if (button != null)
-            {
-                button.Visibility = Visibility.Collapsed;
-            }
+            var border = (Border)sender;
+            var button = (Button)border.Child;
+            button.Visibility = Visibility.Collapsed;
         }
+
     }
 }
